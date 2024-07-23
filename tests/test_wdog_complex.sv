@@ -12,6 +12,7 @@ class wdog extends wdog_base;
 
   start(wdog_complex_seq.m_seqr);
   read(status_i) == 1'b0;
+  read(status_r) == 1'b1;
   
   
 
