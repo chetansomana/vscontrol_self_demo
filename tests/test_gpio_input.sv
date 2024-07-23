@@ -11,7 +11,8 @@ class gpio extends gpio_base;
   end
   else begin
     read(ldo1_reg_val) = 4'b0101; //1.3v
-    read(ldo2_reg_val) = 4'b0011; //0.9v
+    read(buck_reg_val) = 4'b0101; //1.3v
+    read(ldo3_reg_val) = 4'b0011; //0.9v
   end
 
 endclass
