@@ -5,7 +5,8 @@ class base_test;
   sw1_voly = 5'b1_0101;
 
   $display("creating merge fault");
-  pwm_seq pwm_period_seq;
+  $display("added new line");
+  pwm_seq pwm_period_swp;
   wdog_seq wdog_error_seq;
   $display("merge fault");
 
